@@ -1,27 +1,27 @@
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 90px;
 }
 
 body {
-  font-family: Inter, Arial, Helvetica, sans-serif;
-  background: #080d19;
-  color: #f3f6ff;
   min-width: 320px;
-}
-
-a {
-  transition: .2s ease;
+  min-height: 100vh;
+  background: #080f1d;
 }
 
 button,
-input {
+input,
+textarea {
   font: inherit;
+}
+
+::selection {
+  background: #42d9e8;
+  color: #080f1d;
 }
